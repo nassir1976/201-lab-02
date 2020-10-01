@@ -1,8 +1,58 @@
 body {
-  background-color: aqua;
+  background-color:bisque
 }
+
+
 h1 {
   margin: 20px;
   font-size:large ;
   font-weight: bold;
 }
+
+p {
+  padding: 10px;
+}
+#first-paragraph {
+  background-color: cadetblue; color:aliceblue ;
+
+}
+p {padding: 10px;
+}
+#second-paragraph {
+  background-color:green ;color:white ;
+}
+
+
+#third-paragraph {
+  background-color:yellow ;color:tomato ;
+}
+
+  
+ 
+  #fourth-paragraph{
+    background-color:red ;color:seashell ;
+
+  }
+
+  
+  #fifth-paragraph {
+    background-color:teal ;color:thistle ;
+    
+  }
+
+/* <p style="background-color:green; color: white ;"> what is your name?</p>    */
+/* <p style="background-color: yellow; color:tomato ;"> where are you from orginally?</p> */
+/* <p style="background-color: red; color: seashell ; "> do you like American football?</p> */
+/* <p style="background-color: teal;color: thistle ;">   who won the superbowl last year?</p> */
+
+
+
+
+
+     
+    /* <p id="second">Am I orginally from Ethiopia ? </p> */
+    /* <p id="third-paragraph">Do I like American football?</p> */
+    /* <p id="fourth-paragraph">do you think software developer is my favorite field ?</p> */
+    /* <p id="fifth-paragraph">Am I Arsenal soccer team fun ?</p> */
+
+/*style="background-color :cadetblue; color: aliceblue;*/
