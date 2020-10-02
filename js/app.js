@@ -4,13 +4,13 @@
 var username = prompt('What is your name');
 console.log('Hi ' + username);
 
-var countryLocation = prompt('Am I orginally from Ethiopia ?');
+var countryLocation = prompt('Am I orginally from Ethiopia ?').toLowerCase();
 if(countryLocation ==='yes'|| countryLocation ==='y' ) {
 
   console.log('yes!  I am orginally from Ethiopia');
   alert('yes! I am orginally from Ethiopia');
 }
-var like = prompt('Do I like American football?');
+var like = prompt('Am I like American football?').toLowerCase();
 if(like ==='yes'|| like ==='y') {
 
   console.log('yes! I do like American foot ball');
@@ -18,17 +18,25 @@ if(like ==='yes'|| like ==='y') {
 
 }
 
-var favorite = prompt('do you think software developer is my favorite field ? ');
+var favorite = prompt('do you think software developer is my favorite field ? ').toLowerCase();
 if(favorite === 'yes' || favorite === 'y') {
   console.log('yes! It is my dream  profession  . so fare I would love to be building software instead of road and buliding ');
   alert('yes! It is my dream  profession . so fare I would love to be building software instead of road and buliding ');
 }
-var fun = prompt('Am I Arsenal soccer team fun ? ');
-if(fun === 'yes' || fun === 'y') {
+var fan = prompt('Am I Arsenal soccer team fan ? ').toLowerCase();
+if(fan === 'yes' || fan === 'y') {
   console.log('yes! I am Arsenal soccer team fun  since i was  age 20 , I never miss a single arsenal match ');
-  alert('yes! I am Arsenal soccer team fun  since i was age 20, I never miss a single arsenal match ');
-
+  alert('yes! I am Arsenal soccer team fun  since i was age 20, I never miss a single arsenal match ' );
 }
+
+var have = prompt('Do I have a GMC yukon XLcar? ').toLowerCase();
+if(have === 'yes' || have === 'y') {
+  console.log('yes! I have 2019 GMC Yukon XL ');
+  alert('yes! I have 2019 GMC Yukon XL' );
+}
+
+
+
 alert('Well done! , come back  next time to my webpage ' + username );
 
 //console.log(won + ' it was a nice game and the team deserve that title!');

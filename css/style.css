@@ -2,21 +2,20 @@ body {
   background-color:bisque
 }
 
-
 h1 {
   margin: 20px;
-  font-size:large ;
-  font-weight: bold;
+  font-size:x-large;
+  font-weight: bold;  
+  text-align: center;
+  color: blueviolet;
 }
-
+    
 p {
   padding: 10px;
 }
 #first-paragraph {
   background-color: cadetblue; color:aliceblue ;
 
-}
-p {padding: 10px;
 }
 #second-paragraph {
   background-color:green ;color:white ;
@@ -29,16 +28,24 @@ p {padding: 10px;
 
   
  
-  #fourth-paragraph{
-    background-color:red ;color:seashell ;
+#fourth-paragraph {
+    background-color:red;
+    color: seashell;
+}
 
-  }
+                     
+#fifth-paragraph { 
+    background-color: teal; 
+    color: thistle; 
+}
 
-  
-  #fifth-paragraph {
-    background-color:teal ;color:thistle ;
-    
-  }
+#sixth-paragraph {
+background-color: yellowgreen;
+color: violet;
+
+}
+
+
 
 /* <p style="background-color:green; color: white ;"> what is your name?</p>    */
 /* <p style="background-color: yellow; color:tomato ;"> where are you from orginally?</p> */
