@@ -44,8 +44,28 @@ background-color: yellowgreen;
 color: violet;
 
 }
+#seventh-paragraph {
+  text-align: center;
+  background-color: chocolate;
+  text-decoration: darkmagenta;
+}
+#eighth-paragraph {
+  text-align: center;
+  background-color: chocolate;
+  text-decoration: darkmagenta;
+  height: 20px;
+  
+  
 
 
+}
+ul {
+  text-align: center;
+  order: initial;
+}
+ol {
+  text-align: center;
+}
 
 /* <p style="background-color:green; color: white ;"> what is your name?</p>    */
 /* <p style="background-color: yellow; color:tomato ;"> where are you from orginally?</p> */
