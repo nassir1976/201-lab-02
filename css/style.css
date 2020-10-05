@@ -15,43 +15,44 @@ p {
 }
 #first-paragraph {
   background-color: cadetblue; color:aliceblue ;
-
+ border-bottom: 2px solid grey; 
+ padding-top: 10px;
 }
 #second-paragraph {
-  background-color:green ;color:white ;
+  background-color:cadetblue ;color:white ;
 }
 
 
 #third-paragraph {
-  background-color:yellow ;color:tomato ;
+  background-color:cadetblue ;color:tomato ;
 }
 
   
  
 #fourth-paragraph {
-    background-color:red;
+    background-color:cadetblue;
     color: seashell;
 }
 
                      
 #fifth-paragraph { 
-    background-color: teal; 
+    background-color:cadetblue; 
     color: thistle; 
 }
 
 #sixth-paragraph {
-background-color: yellowgreen;
+background-color:cadetblue;
 color: violet;
 
 }
 #seventh-paragraph {
   text-align: center;
-  background-color: chocolate;
-  text-decoration: darkmagenta;
+  background-color:cadetblue
+
 }
 #eighth-paragraph {
   text-align: center;
-  background-color: chocolate;
+  background-color: cadetblue;
   text-decoration: darkmagenta;
   height: 20px;
   
@@ -65,7 +66,15 @@ ul {
 }
 ol {
   text-align: center;
+  
 }
+
+  img{
+ padding-bottom: 20px;
+ margin-left:20px ;
+  }
+
+
 
 /* <p style="background-color:green; color: white ;"> what is your name?</p>    */
 /* <p style="background-color: yellow; color:tomato ;"> where are you from orginally?</p> */

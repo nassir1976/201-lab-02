@@ -15,7 +15,7 @@ if(countryLocation ==='yes'|| countryLocation ==='y' ) {
 var like = prompt('Do I like American football?').toLowerCase();
 if(like ==='no'|| like ==='n') {
 
-  console.log('yes! I do like American foot ball');
+  console.log('no ! I do not like American foot ball');
   alert('no! I do not like American foot ball');
 
 } else {alert('you get wrong');}
@@ -39,84 +39,55 @@ if(have === 'yes' || have === 'y') {
 
 alert('Well done! , come back  next time to my webpage ' + username );
 
+// Question 6
+const correctAnswer =  false;
 
-var numberAttempt =  4;
-var correctlyAnswered = 0;
-var correctAns= 5;
-
-for (var i = 0; i < numberAttempt; i++){
-  var answer = prompt('Question');
-  if(answer === correctAns)
-  {
-    alert('correct answer');
-    correctlyAnswered = correctlyAnswered +1;
-    break;
-    //works
-  }
-  else if(answer <= 3 ){alert('too low');} //yes
-  else if (answer <= 4) {alert('Close.');} // no
-  else if (answer > 7){alert('Too high.');}//yes
-  else if (answer >= 6){alert('Close.');}//no
-}
-
-if(correctlyAnswered === 1)
+for (var i = 0; i < 4; i++)
 {
-  alert('You got it right');
-}else{alert('Youve tried 4 times. Try it next time');}//4
+  const guess = prompt("Guess how many of my top 10 places I have visited so far");
+
+  if (guess <= 0) {
+        alert('It is above zero!');
+      }else if (guess >= 1 && guess < 3) {
+        alert('it is too low !');
+      } else if (guess >=3 && guess <= 4) {
+        alert('it is amost closer!'); 
+      } else if (guess > 5 && guess <=7) {
+        alert('it is amost closer!');
+      } else if (guess > 7 && guess <=10) {
+        alert('it is too high!');
+      } else if (guess >= 5 && guess <= 5) {
+        alert('Great , thats right.');
+        correctAnswer = true;
+        break;
+
+      }
+}
+ if (correctAnswer == false){alert("You run out of attempts. The right answer is 5.")}
+
+// question 7
 
 
-
-
-
-
-
-
-
-// // 6th Question
-
-//  var qAnswered = false;
-//  while(qAnswered === false){
-
-
+for (var i = 0; i < 6; i++)
+{
   
-// //  var intvalue3=parseInt(guess3);
+  var colorArray = ["white", "black", "yellow"];
+  var colorQuestion = prompt("can you guess my top three colors stored in arrays ?");
+  var lowerCasedAnswer = colorQuestion.toLowerCase();
   
+  if (lowerCasedAnswer === colorArray[0]) {
+    alert('you right!');
+    break;
+  }else if (lowerCasedAnswer === colorArray[1]) {
+    alert('you right!');
+    break;
+  }else if (lowerCasedAnswer === colorArray[2]) {
+    alert('you right!');
+    break;
+  }else{
+    alert('wrong try again');
+  
+  }
+  
+}     
  
-//   var guessValue= ('guess how many of from my top ten places so fare I viseted ?');
-//   if(guessValue ===5){
-//   console.log('yes 5 is correct')
-//   alert=('You got it right');
-//   } else  {
-//     (guessValue <=2) 
-//     alert('too low');
-//   }
-//    if(guessValue >2 || <5 ) {
-//   alert('try again');
-
-//   // }
-    
-//   // } else {
-    
-//   // }
-    
-// //   }else if(guessValue, i<=2 );
-// //   {
-// //     alert('too low');
-// //   }
-// //   if(guessValue, i>2 && i<5) {
-// //     alert('try again');
-// //   }
-// //   if(guessValue, i>5 && i<7) {
-// //     alert('try again');
-// //   }
-// //   else if(guessValue, i > 7){
-// //     alert ('too high') ;
-// //   {
-// //   var time = new Date().getHours();
-// // if (time < 10) {
-// //   greeting = "Good morning";
-// // } else if (time < 20) {
-// //   greeting = "Good day";
-// // } else {
-// //   greeting = "Good evening";
-// // }
