@@ -77,7 +77,7 @@ for (var i = 0; i < 6; i++)
 {
   
   var colorArray = ["white", "black", "yellow"];
-  var colorQuestion = prompt("can you guess one of the color stored in the Arrays?");
+  var colorQuestion = prompt("can you guess my favorite colors?");
   var lowerCasedAnswer = colorQuestion.toLowerCase();
   
   if (lowerCasedAnswer === colorArray[0]) {

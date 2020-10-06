@@ -47,14 +47,14 @@ color: black;
 
 }
 #h2 {
-  text-align: center;
+  
   background-color:violet;
   color: green;
 
 
 }
 #h3 {
-  text-align: center;
+  
   background-color:violet;
   color: green;
   font-weight: bold;
@@ -64,12 +64,19 @@ color: black;
 
 }
 ul {
-  text-align: center;
-  order: initial;
+  
+  list-style-type: disc;
   font-weight: bold;
+  margin: 50px;
+  padding-right: 20px;
+  
 }
 ol {
-  text-align: center;
+  
+  list-style-type: decimal;
+  margin: 50px;
+  padding-right: 20px;
+  
   
 }
 
