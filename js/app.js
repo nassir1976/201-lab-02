@@ -45,15 +45,15 @@ if(have === 'yes' || have === 'y') {
   alert('yes! I have 2019 GMC Yukon XL ' );
   scoreTracker++; 
 } else {alert('you get wrong');}
-alert('You got '+ scoreTracker + " out of 5 questions. ");
+// alert('You got '+ scoreTracker + " out of 5 questions. ");
 alert('Well done! , come back  next time to my webpage ' + username );
 
 // // Question 6
-const correctAnswer = false; 
+var correctAnswer = false; 
 
 for (var i = 0; i < 4; i++)
 {
-  const guess = prompt("Guess how many of my top 10 places I have visited so far");
+  var guess = prompt("Guess how many of my top 10 places I have visited so far");
 
   if (guess <= 0) {
         alert('It is above zero!');
@@ -63,12 +63,13 @@ for (var i = 0; i < 4; i++)
         alert('it is too high!');
       } else if (guess >= 5 && guess <= 5) {
         alert('Great , thats right.');
-        correctAnswer = true;
+        // alert('You got '+ scoreTracker + " out of 7 questions. ");
+       correctAnswer = true;
         break;
         
       }
 }
- if (correctAnswer == false){alert("You run out of attempts. The right answer is 5.")}      
+//  if (correctAnswer == false){alert("You run out of attempts. The right answer is 5.")}      
 
 // question 7
 
@@ -82,21 +83,32 @@ for (var i = 0; i < 6; i++)
   
   if (lowerCasedAnswer === colorArray[0]) {
     alert('you right!');
+    alert('You got '+ scoreTracker + " out of 7 questions. ");
+    scoreTracker++;
     break;
+    
   }else if (lowerCasedAnswer === colorArray[1]) {
     alert('you right!');
+    scoreTracker++;
     break;
   }else if (lowerCasedAnswer === colorArray[2]) {
     alert('you right!');
+    alert('You got '+ scoreTracker + " out of 7 questions. ");
     break;
   }else{
+    // alert('You got '+ scoreTracker + " out of 7 questions. ");
     alert('wrong try again');
-    
-    
+    // alert('You got '+ scoreTracker + " out of 7 questions. ");
+    // function Math(){
+    //   var percent = (correctAnswer/7)* 100;
+    //   console.log(correctAnswer);
+    //   return percent;
   }
-  
+
+  // console.log(Math());
+  // alert(name+'thank you for vesting my web '+ Math.round(Math))+"percent correctly"
 }  
-     
+// }    
 // // const finalQuestion
  
 // console.log(scoreTracker);
