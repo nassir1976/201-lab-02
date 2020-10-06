@@ -1,68 +1,72 @@
 body {
-  background-color:bisque
+  background-color:mediumslateblue;
 }
 
 h1 {
   margin: 20px;
   font-size:x-large;
-  font-weight: bold;  
-  text-align: center;
-  color: blueviolet;
+  font-weight: bolder; 
+  text-align:left;
+  color: black;
+  background-color: white;
 }
     
 p {
   padding: 10px;
 }
 #first-paragraph {
-  background-color: cadetblue; color:aliceblue ;
+  background-color:yellowgreen; color:black ;
  border-bottom: 2px solid grey; 
  padding-top: 10px;
 }
 #second-paragraph {
-  background-color:cadetblue ;color:white ;
+  background-color:yellowgreen ;color:black ;
 }
 
 
 #third-paragraph {
-  background-color:cadetblue ;color:tomato ;
+  background-color:yellowgreen ;color:black ;
 }
 
   
  
 #fourth-paragraph {
-    background-color:cadetblue;
-    color: seashell;
+    background-color:yellowgreen;
+    color: black;
 }
 
                      
 #fifth-paragraph { 
-    background-color:cadetblue; 
-    color: thistle; 
+    background-color:yellowgreen; 
+    color: black; 
 }
 
 #sixth-paragraph {
-background-color:cadetblue;
-color: violet;
+background-color:yellowgreen;
+color: black;
 
 }
-#seventh-paragraph {
+#h2 {
   text-align: center;
-  background-color:cadetblue
+  background-color:violet;
+  color: green;
+
 
 }
-#eighth-paragraph {
+#h3 {
   text-align: center;
-  background-color: cadetblue;
-  text-decoration: darkmagenta;
-  height: 20px;
-  
-  
+  background-color:violet;
+  color: green;
+  font-weight: bold;
+
+   
 
 
 }
 ul {
   text-align: center;
   order: initial;
+  font-weight: bold;
 }
 ol {
   text-align: center;
@@ -73,8 +77,14 @@ ol {
  padding-bottom: 20px;
  margin-left:20px ;
   }
-
-
+    footer {
+   background-color: white;
+   font-style: italic;
+   font-size: medium;
+   font-weight: bold;
+   color: tomato;
+}
+ 
 
 /* <p style="background-color:green; color: white ;"> what is your name?</p>    */
 /* <p style="background-color: yellow; color:tomato ;"> where are you from orginally?</p> */
