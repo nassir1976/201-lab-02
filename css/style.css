@@ -1,5 +1,9 @@
 body {
   background-color:mediumslateblue;
+  border-bottom: 20px;
+  border-top: 20px;
+  border-left: 20px;
+  border-right: 20px;
 }
 
 h1 {
@@ -23,11 +27,9 @@ p {
   background-color:yellowgreen ;color:black ;
 }
 
-
 #third-paragraph {
   background-color:yellowgreen ;color:black ;
 }
-
   
  
 #fourth-paragraph {
@@ -48,19 +50,18 @@ color: black;
 }
 #h2 {
   
-  background-color:violet;
-  color: green;
+  background-color:black;
+  color:white;
+  margin: 20px;
 
 
 }
 #h3 {
   
-  background-color:violet;
-  color: green;
+  background-color:black;
+  color:white;
   font-weight: bold;
-
-   
-
+  margin: 20px;   
 
 }
 ul {
@@ -69,6 +70,7 @@ ul {
   font-weight: bold;
   margin: 50px;
   padding-right: 20px;
+  color: beige;
   
 }
 ol {
@@ -76,13 +78,16 @@ ol {
   list-style-type: decimal;
   margin: 50px;
   padding-right: 20px;
-  
+  color: beige;
   
 }
 
   img{
  padding-bottom: 20px;
  margin-left:20px ;
+ background-image: -webkit-radial-gradient();
+ border-image-slice: fill;
+ 
   }
     footer {
    background-color: white;
@@ -90,6 +95,7 @@ ol {
    font-size: medium;
    font-weight: bold;
    color: tomato;
+   padding: 25px;
 }
  
 

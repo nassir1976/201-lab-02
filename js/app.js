@@ -45,8 +45,8 @@ if(have === 'yes' || have === 'y') {
   alert('yes! I have 2019 GMC Yukon XL ' );
   scoreTracker++; 
 } else {alert('you get wrong');}
-// alert('You got '+ scoreTracker + " out of 5 questions. ");
-alert('Well done! , come back  next time to my webpage ' + username );
+
+// alert('Well done! , come back  next time to my webpage ' + username );
 
 // // Question 6
 var correctAnswer = false; 
@@ -57,58 +57,45 @@ for (var i = 0; i < 4; i++)
 
   if (guess <= 0) {
         alert('It is above zero!');
-      }else if (guess >= 1 && guess <= 4) {
+      }else if (guess  <= 4) {
         alert('it is too low !');
-      } else if (guess >= 6 && guess <=10) {
+      } else if (guess >= 6 ) {
         alert('it is too high!');
       } else if (guess >= 5 && guess <= 5) {
         alert('Great , thats right.');
-        // alert('You got '+ scoreTracker + " out of 7 questions. ");
+        scoreTracker++ ;
        correctAnswer = true;
         break;
         
       }
 }
-//  if (correctAnswer == false){alert("You run out of attempts. The right answer is 5.")}      
+ if (correctAnswer == false){alert("You run out of attempts. The right answer is 5.")}      
+// Question 7
 
-// question 7
+var favoriteColor = ['black','white','yellow','orange' , 'gray'];
+var colorQuestion =prompt("can you guess my favorite colors?").toLowerCase();
 
+var attemptsNumber = 6;
+var answerCorrect = false;
+while (attemptsNumber > 0 && !answerCorrect){
+  attemptsNumber--;
+  for(var i = 0 ; i < favoriteColor.length; i++){
+    if(colorQuestion === favoriteColor[i]) {
+      answerCorrect = true ;
+      alert('that is one of my favorite color!'   );
+      scoreTracker++;
+    } 
+ } 
+     if(attemptsNumber > 0 && !answerCorrect){
+     colorQuestion = prompt ('try again thats not my favorite Color'  );
+      }
 
-for (var i = 0; i < 6; i++)
-{
+  }   
   
-  var colorArray = ["white", "black", "yellow"];
-  var colorQuestion = prompt("can you guess my favorite colors?");
-  var lowerCasedAnswer = colorQuestion.toLowerCase();
-  
-  if (lowerCasedAnswer === colorArray[0]) {
-    alert('you right!');
-    alert('You got '+ scoreTracker + " out of 7 questions. ");
-    scoreTracker++;
-    break;
-    
-  }else if (lowerCasedAnswer === colorArray[1]) {
-    alert('you right!');
-    scoreTracker++;
-    break;
-  }else if (lowerCasedAnswer === colorArray[2]) {
-    alert('you right!');
-    alert('You got '+ scoreTracker + " out of 7 questions. ");
-    break;
-  }else{
-    // alert('You got '+ scoreTracker + " out of 7 questions. ");
-    alert('wrong try again');
-    // alert('You got '+ scoreTracker + " out of 7 questions. ");
-    // function Math(){
-    //   var percent = (correctAnswer/7)* 100;
-    //   console.log(correctAnswer);
-    //   return percent;
-  }
-
-  // console.log(Math());
-  // alert(name+'thank you for vesting my web '+ Math.round(Math))+"percent correctly"
-}  
-// }    
-// // const finalQuestion
- 
-// console.log(scoreTracker);
+     if (attemptsNumber === 0 && !answerCorrect){
+       alert ('sorry you loss your number of attempts!  my favorite colors are black white yellow orange and gray '  );
+     }      
+     
+     alert('You got '+ scoreTracker + " out of 7 questions. THANK YOU FOR VISITING MY WEBPAGE ");
+      
+       
