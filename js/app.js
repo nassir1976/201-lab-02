@@ -3,15 +3,12 @@
 var scoreTracker = 0;
 
 var username = prompt('What is your name');
-// console.log('Hello ' + username);
 alert('Welcome to my webpage ! ' + username);
 
-//Questions start here 
 function questionOne() {
   var countryLocation = prompt('Am I orginally from Ethiopia ?').toLowerCase();
   if (countryLocation === 'yes' || countryLocation === 'y') {
 
-    // console.log('yes!  I am orginally from Ethiopia');
     alert('yes! I am orginally from Ethiopia');
     scoreTracker++;
 
@@ -24,7 +21,6 @@ function questionTwo() {
   var like = prompt('Do I like American football?').toLowerCase();
   if (like === 'no' || like === 'n') {
 
-    // console.log('no ! I do not like American foot ball');
     alert('no! I do not like American foot ball');
     scoreTracker++;
 
@@ -32,11 +28,9 @@ function questionTwo() {
     alert('you get wrong');
   }
 }
-
 function questionThree() {
   var favorite = prompt('do you think software developer is my favorite field ? ').toLowerCase();
   if (favorite === 'yes' || favorite === 'y') {
-    // console.log('yes! It is my dream  profession  . so fare I would love to be building software instead of road and buliding ');
     alert('yes! It is my dream  profession . so fare I would love to be building software instead of road and buliding ');
     scoreTracker++;
   } else { alert('you get wrong'); }
@@ -45,7 +39,7 @@ function questionThree() {
 function questionFour() {
   var fan = prompt('Am I Arsenal soccer team fan ? ').toLowerCase();
   if (fan === 'yes' || fan === 'y') {
-    // console.log('yes! I am Arsenal soccer team fan  since i was  age 20 , I never miss a single arsenal match ');
+   
     alert('yes! I am Arsenal soccer team fun  since i was age 20, I never miss a single arsenal match ');
     scoreTracker++;
   } else { alert('you get wrong'); }
@@ -54,7 +48,6 @@ function questionFour() {
 function questionFive() {
   var have = prompt('Do I have a GMC yukon XL car? ').toLowerCase();
   if (have === 'yes' || have === 'y') {
-    // console.log('yes! I have 2019 GMC Yukon XL ');
     alert('yes! I have 2019 GMC Yukon XL ');
     scoreTracker++;
   } else { alert('you get wrong'); }
@@ -85,7 +78,6 @@ function questionSix() {
   if (correctAnswer == false) { alert("You run out of attempts. The right answer is 5.") }
 
 }
-// Question 7
 function questionSeven() {
   var favoriteColor = ['black', 'white', 'yellow', 'orange', 'gray'];
   var colorQuestion = prompt("can you guess my favorite colors?").toLowerCase();
