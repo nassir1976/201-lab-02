@@ -5,17 +5,31 @@ body {
   border-left: 20px;
   border-right: 20px;
 }
-
-h1 {
+.hello1 {
   margin: 20px;
-  font-size:x-large;
+  font-size:xx-large;
   font-weight: bolder; 
-  text-align:left;
+  text-align:center;
   color: black;
   background-color: white;
 }
-    
-p {
+.hello2{
+  
+  font-size: large;
+  color:plum;
+  font-weight: bold;
+  font-style: italic;
+  text-align:center;
+} 
+.hello3{
+  font-size: x-large;
+  color:white;
+  font-style: italic;
+  text-align:center;
+  
+
+}
+p{
   padding: 10px;
 }
 #first-paragraph {
@@ -90,29 +104,36 @@ ol {
  border-image-slice: fill;
  
   }
-    footer {
-   background-color: white;
-   font-style: italic;
-   font-size: medium;
-   font-weight: bold;
-   color: tomato;
-   padding: 25px;
-}
+  .content-footer {
+    margin: 50px 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #73A8C2;
+    text-decoration: none;
+  }
+  .social > li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .content-footer > p {
+    color: #F7EDE1;
+  }
+  a {
+      font-weight: bold;
+      text-decoration: none;
+      color: #F1C863;
+  }
+    
+  @media only screen and (max-width: 500px) {
+      .masthead {
+          padding: 3em 0;
+      }
+      .masthead-heading {
+          font-size: 3em;
+      }
+      .content-footer {
+          padding: 2em 2.5em;
+    }
+  }
  
 
-/* <p style="background-color:green; color: white ;"> what is your name?</p>    */
-/* <p style="background-color: yellow; color:tomato ;"> where are you from orginally?</p> */
-/* <p style="background-color: red; color: seashell ; "> do you like American football?</p> */
-/* <p style="background-color: teal;color: thistle ;">   who won the superbowl last year?</p> */
-
-
-
-
-
-     
-    /* <p id="second">Am I orginally from Ethiopia ? </p> */
-    /* <p id="third-paragraph">Do I like American football?</p> */
-    /* <p id="fourth-paragraph">do you think software developer is my favorite field ?</p> */
-    /* <p id="fifth-paragraph">Am I Arsenal soccer team fun ?</p> */
-
-/*style="background-color :cadetblue; color: aliceblue;*/
